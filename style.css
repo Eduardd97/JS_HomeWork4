@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cs14.pikabu.ru/post_img/big/2022/08/09/7/1660043542189487065.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 350px;
+    align-items: center;
+}
+.error-message {
+    padding-bottom: 30px;
+    text-decoration: underline;
+    font-size: 35px;
+}
+.user_data_list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.user_data_list, .calculation_results {
+    font-size: 20px;
+    color: white;
+}
